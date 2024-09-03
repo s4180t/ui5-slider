@@ -1,0 +1,17 @@
+<mvc:View xmlns:form="sap.ui.layout.form" controllerName="ui5slider.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m" xmlns:cus="ui5slider.control">
+    <Page id="page" title="{i18n>title}">
+        <form:SimpleForm editable="true">
+            <Label text="Something" />
+            <cus:Slider min="0" max="3" class="sapUiMediumMarginBottom CustomScale"
+                enableTickmarks="true" value="2" legendPress="onLegendPress">
+                <cus:scale>
+                    <cus:Scale tickmarksBetweenLabels="1" />
+                </cus:scale>
+            </cus:Slider>
+            <Label text="Link" />
+            <Link text="Sample" />
+        </form:SimpleForm>
+    </Page>
+</mvc:View>

@@ -1,0 +1,16 @@
+.CustomScale li.sapMSliderTickLabel .sapMSliderLabel {
+  width: 8rem;
+  left: -4rem;
+}
+
+.CustomScale li:nth-last-child(1 of li.sapMSliderTickLabel) .sapMSliderLabel {
+  width: 8rem;
+  left: -8rem;
+  text-align: end;
+}
+
+.CustomScale li:nth-child(1 of li.sapMSliderTickLabel) .sapMSliderLabel {
+  width: 8rem;
+  left: 0;
+  text-align: start;
+}
